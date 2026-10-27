@@ -63,10 +63,4 @@ jobs:
       - name: Deploy (simulated)
         run: npm run deploy
 
-      - name: Upload coverage report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: coverage-${{ github.run_id }}
-          path: apps/api/coverage
-          retention-days: 7
+      
