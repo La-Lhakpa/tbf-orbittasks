@@ -15,3 +15,4 @@ Workshop 3 students improve this file in place, following the recipe in [`worksh
 - No branch protection rules (those are configured in the GitHub UI; Workshop 7 covers it).
 
 These omissions are intentional. The lesson is the gap.
+
